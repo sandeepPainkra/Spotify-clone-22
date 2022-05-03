@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@900&family=Raleway:wght@400;500;600&display=swap");
+.login {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.carousel .slider {
+  height: 100vh !important;
+}
+.carousel .slider img {
+  width: 100%;
+  height: 100vh;
+}
+
+.login_container {
+  width: 70%;
+  text-align: center;
+  position: absolute;
+  z-index: 1;
+  top: 30%;
+  left: 16%;
+}
+.login_container h1 {
+  color: #ee0256;
+  font-family: "Raleway", sans-serif;
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+
+.login_container p {
+  color: #fff;
+  margin: 1rem 0;
+}
+.my_btn {
+  width: 360px;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.4rem !important;
+  border: 2px solid !important;
+  border-radius: 3rem !important;
+}
+
+@media only screen and (max-width: 1091px) {
+  .login_container {
+    left: 20%;
+    top: 40%;
+  }
+}
+@media only screen and (max-width: 950px) {
+  .login_container {
+    left: 13%;
+  }
+}
+@media only screen and (max-width: 769px) {
+  .login_container {
+    left: 9%;
+    width: 80%;
+    top: 30%;
+  }
+  .login_container h1 {
+    font-size: 2.4rem;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .login_container {
+    left: 10%;
+    width: 80%;
+  }
+  .login_container h1 {
+    font-size: 2.4rem;
+  }
+  .my_btn {
+    width: auto;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .login_container {
+    left: 10%;
+    width: 80%;
+  }
+  .login_container h1 {
+    font-size: 2rem;
+  }
+  .my_btn {
+    width: auto;
+    font-size: 1rem !important;
+  }
+}
