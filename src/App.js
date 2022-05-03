@@ -7,8 +7,7 @@ import Home from "./Components/Home.js";
 const App = () => {
   return (
     <div className="app">
-      {/* <Header /> */}
-      {/* <Login /> */}
+      <Login />
       <Home />
     </div>
   );

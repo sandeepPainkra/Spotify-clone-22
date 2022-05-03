@@ -7,6 +7,7 @@ import bg5 from "../images/bg5.jpg";
 import "./Login.css";
 import Header from "./Header.js";
 import { Button } from "@material-ui/core";
+import { accessUrl, loginUrl } from "./musicStream";
 
 const Login = () => {
   return (
@@ -19,9 +20,11 @@ const Login = () => {
           libero rem adipisci? Aliquam quos necessitatibus temporibus ab non
           repellat.
         </p>
-        <Button className="my_btn" variant="outlined" color="secondary">
-          Login With Spotify
-        </Button>
+        <a href={accessUrl}>
+          <Button className="my_btn" variant="outlined" color="secondary">
+            Login With Spotify
+          </Button>
+        </a>
       </div>
       <Carousel
         infiniteLoop={true}
